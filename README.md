@@ -1,3 +1,3 @@
 MURAT
 
-Node.js postgresql trial
+Node.js postgresql project

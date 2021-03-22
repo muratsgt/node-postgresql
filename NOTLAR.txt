@@ -1,0 +1,19 @@
+npx express-generator
+
+klasör yapisi, package json u ile birlikte bir template project olusturuyor.
+
+Projemizin konusu
+
+MVC modeli
+Model - Postgresql
+View - Ejs template
+Controller - 
+
+// RESTful API
+Users API
+
+// CRUD ***
+// Create   add user
+// Read     list users
+// Update   edit user
+// Delete   delete user
