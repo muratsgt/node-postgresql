@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <link rel="stylesheet" href="/stylesheets/users.css" />
+  </head>
+  <body>
+    <!-- NAVBAR  -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/users"
+                >Users <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+
+          <div class="mx-auto">
+            <a href="#" class="navbar-brand">Node Murat</a>
+          </div>
+
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+    <!-- TABLE -->
+    <div class="container">
+      <div class="row col-md-12 custyle">
+        <a href="#" class="btn btn-primary pull-right"
+          ><b>+</b> Add new categories</a
+        >
+        <table class="table table-striped custab">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Created</th>
+              <th>Updated</th>
+              <th class="text-center">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- TODO: userlist from db to be mapped -->
+            <tr>
+              <td>1</td>
+              <td>John</td>
+              <td>Doe</td>
+              <td>12/12/2020</td>
+              <td>12/12/2020</td>
+              <td class="text-center">
+                <a class="btn btn-info btn-xs" href="#"
+                  ><span class="glyphicon glyphicon-edit"></span> Edit</a
+                >
+                <a href="#" class="btn btn-danger btn-xs"
+                  ><span class="glyphicon glyphicon-remove"></span> Del</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Marry</td>
+              <td>Looper</td>
+              <td>12/12/2020</td>
+              <td>12/12/2020</td>
+              <td class="text-center">
+                <a class="btn btn-info btn-xs" href="#"
+                  ><span class="glyphicon glyphicon-edit"></span> Edit</a
+                >
+                <a href="#" class="btn btn-danger btn-xs"
+                  ><span class="glyphicon glyphicon-remove"></span> Del</a
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
