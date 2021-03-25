@@ -17,3 +17,15 @@ Users API
 // Read     list users
 // Update   edit user
 // Delete   delete user
+
+
+Database e baglanmak icin
+kullandigimiz bir araci program var 
+	Sequelize
+npm i sequelize
+const { Sequelize } = require("sequelize");
+const sequelize = new Sequelize(`postgres://...`);
+
+
+npm i pg
+post greyi de yüklemek gerekiyor
