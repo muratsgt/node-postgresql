@@ -19,13 +19,25 @@ Users API
 // Delete   delete user
 
 
+
+*****  SEQUELIZE *****
+Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server.
+
 Database e baglanmak icin
-kullandigimiz bir araci program var 
-	Sequelize
+kullandigimiz bir araci program
+	
 npm i sequelize
 const { Sequelize } = require("sequelize");
 const sequelize = new Sequelize(`postgres://...`);
 
-
 npm i pg
 post greyi de yüklemek gerekiyor
+
+database tablo yapisiyla nodejs deki yapiyi eslestirmek icin
+model olusturuyoruz.
+sequelize.define(modelName, attributes, options)
+
+
+
+
+
