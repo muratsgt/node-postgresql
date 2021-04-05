@@ -38,6 +38,13 @@ model olusturuyoruz.
 sequelize.define(modelName, attributes, options)
 
 
+add user
+post methoduyla formu gonderiyoruz
+form - action - submit button
+
+form icindelki yerlerde
+    name: formda gonderilen deger basligi
+    id: html sayfasinda ogenin ayirt edici unique ismi
 
 
 
